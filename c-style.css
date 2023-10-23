@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color-zero-one: #FFFFFF;
+    --color-zero-two: #000000;
+    --color-one: #00F2FF;
+    --color-two: #0051FF;
+    --color-three: #00A1FF;
+    --color-four: #808080;
+    --color-five: #D6D6D6;
+    --color-six: #ADADAD;
+}
+
+.container {
+    width: 100vw;
+    height: 45vh;
+    background-image: linear-gradient(to right, var(--color-two), var(--color-one));
+    display: flex;
+    justify-content: center;
+}
+
+.container .content{
+    width: 30vw;
+    height: 75vh;
+    margin: 5vh 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container .content .head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .content .head .title{
+    text-transform: uppercase;
+    font-size: 5vh;
+    font-weight: bolder;
+    color: var(--color-zero-one);
+}
+
+.container .content .head .subtitle{
+    width: 25vw;
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.container .content .head .subtitle span{
+    font-weight: 500;
+}
+
+.container .content .head .subtitle a{
+    text-decoration: none;
+    color: var(--color-one);
+    transition: all .3s ease-in-out;
+}
+
+.container .content .head .subtitle a:hover{
+    color: var(--color-zero-one);
+}

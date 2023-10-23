@@ -1,0 +1,62 @@
+.container{
+    overflow: hidden;
+}
+.container .content .c-container{
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container .content .c-container a{
+    width: 45vw;
+    height: 30vh;
+    border-radius: 1vh;
+    background-color: var(--color-five);
+    display: flex;
+    text-decoration: none;
+    color: var(--color-zero-two);
+    transition: all .3s ease-in-out;
+}
+.container .content .c-container a:hover{
+    outline: 0.5vh solid var(--color-zero-two);
+    background-color: var(--color-four);
+    color: var(--color-zero-one);
+}
+.container .content .c-container a .item{
+    display: flex;
+}
+.container .content .c-container a .item .head{
+    width: 20vh;
+    height: 20vh;
+    margin: auto 1vw;
+    border-radius: 1vw;
+    background-color: var(--color-six);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+.container .content .c-container a:hover .item .head{
+    background-color: var(--color-five);
+}
+.container .content .c-container a .item .head img{
+    height: 15vh;
+    object-fit: cover;
+}
+.container .content .c-container a .item .i-content{
+    margin: 1vh;
+    text-align: left;
+}
+.container .content .c-container a .item .i-content .title{
+    margin: 1vh;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bolder;
+    color: var(--color-two);
+    transition: all .3s ease-in-out;
+}
+.container .content .c-container a:hover .item .i-content .title{
+    color: var(--color-one);
+}
+.container .content .c-container a .item .i-content span{
+    font-weight: 500;
+}

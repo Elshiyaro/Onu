@@ -1,0 +1,31 @@
+body{
+    height: 1000vw;
+}
+.container .head .parallax{
+    width: 99vw;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(https://t4.ftcdn.net/jpg/01/87/47/59/360_F_187475954_KuDIRQZbGTwwyMTXZeRmojQH9YeSjrWt.jpg);
+}
+.container .head .parallax .content{
+    width: 99vw;
+    top: 20vh;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+.container .head .parallax .content span{
+    text-transform: uppercase;
+    font-size: 5vw;
+    font-weight: bolder;
+    color: var(--color-zero-one);
+}
+.container .head .parallax .shawdow{
+    width: 100%;
+    height: 50vh;
+    z-index: 2;
+    padding: 50vh;
+    background: linear-gradient(to bottom, transparent, var(--color-zero-two));
+}
